@@ -14,7 +14,6 @@ app = Flask(__name__)
 
 load_dotenv()
 
-client = OpenAI(api_key="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")
 
 
 device = "cuda" if torch.cuda.is_available() else "cpu"
